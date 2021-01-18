@@ -50,7 +50,10 @@ public class ScreenService {
     public ResponseEntity<Object> getScreens(GetScreenDTO getScreenDTO) {
         Long theatreId = getScreenDTO.getTheatreId();
         if (theatreId == null) {
-            return Utils.okResponse("screens", screenRepository.findAll());
+            Long screenId = getScreenDTO.getScreenId();
+            if (screenId == null)
+                return Utils.okResponse("screens", screenRepository.findAll());
+            return Utils.okResponse("screen", screenRepository.findById(screenId));
         }
         Optional<Theatre> optionalTheatre = theatreRepository.findById(theatreId);
         if (optionalTheatre.isEmpty()) {
