@@ -12,6 +12,10 @@ public class Seat {
     @JoinColumn(nullable = false)
     private Screen screen;
 
+    public Long getId() {
+        return this.id;
+    }
+
     public int getSeat() {
         return this.seat;
     }
