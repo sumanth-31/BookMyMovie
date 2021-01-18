@@ -39,7 +39,7 @@ public class SeatService {
         Screen screen = optionalScreen.get();
         for (int seatNumber : seatNumbers) {
             boolean seatBooked = seatRepository.findByScreenAndSeat(screen, seatNumber).isPresent();
-            if (seatBooked || seatNumber < 1 || seatNumber > screen.getNumberOfSeats()) {
+            if (seatBooked || seatNumber < 0 || seatNumber >= screen.getNumberOfSeats()) {
                 return Utils.badRequest("One or more seats are booked or the details are invalid");
             }
         }
