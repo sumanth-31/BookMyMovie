@@ -1,3 +1,6 @@
+/*
+This File defines the DTO for Adding screen.
+*/
 package com.ticketsystem.bookmymovie.dto.screenDTO;
 
 import com.ticketsystem.bookmymovie.utils.Constants;

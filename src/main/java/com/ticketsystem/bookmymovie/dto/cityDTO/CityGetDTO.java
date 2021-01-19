@@ -1,3 +1,6 @@
+/*
+This File defines the DTO for GET Request of City.
+*/
 package com.ticketsystem.bookmymovie.dto.cityDTO;
 
 public class CityGetDTO {

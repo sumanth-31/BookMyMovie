@@ -1,3 +1,7 @@
+/*
+Controller for Screen-related functions. 
+This file defines the API endpoints mapping for Screen-related functions
+*/
 package com.ticketsystem.bookmymovie.controllers;
 
 import com.ticketsystem.bookmymovie.dto.screenDTO.AddScreenDTO;

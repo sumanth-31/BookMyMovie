@@ -1,3 +1,6 @@
+/*
+This File defines the DTO for getting Cities.
+*/
 package com.ticketsystem.bookmymovie.dto.screenDTO;
 
 public class GetScreenDTO {

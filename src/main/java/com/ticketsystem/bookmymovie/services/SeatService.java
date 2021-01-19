@@ -1,3 +1,6 @@
+/*
+This File defines the Service for Seat(Ticket) that contains the business logic for various functions.
+ */
 package com.ticketsystem.bookmymovie.services;
 
 import com.ticketsystem.bookmymovie.dto.seatDTO.*;

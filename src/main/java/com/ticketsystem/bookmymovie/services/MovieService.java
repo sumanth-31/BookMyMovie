@@ -1,3 +1,6 @@
+/*
+This File defines the Service for Movie that contains the business logic for various functions.
+ */
 package com.ticketsystem.bookmymovie.services;
 
 import java.util.List;

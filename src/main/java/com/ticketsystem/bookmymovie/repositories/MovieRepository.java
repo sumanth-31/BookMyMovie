@@ -1,3 +1,6 @@
+/*
+This File defines the Repository for Movie which allows us to access the database using ORM.
+ */
 package com.ticketsystem.bookmymovie.repositories;
 
 import java.util.Optional;

@@ -1,3 +1,7 @@
+/*
+Controller for Seat(Ticket)-related functions. 
+This file defines the API endpoints mapping for Seat-related functions
+*/
 package com.ticketsystem.bookmymovie.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;

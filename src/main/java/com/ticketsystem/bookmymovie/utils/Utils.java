@@ -1,3 +1,6 @@
+/*
+This file contains various functions defined solely for the purpose of the DRY principle.
+*/
 package com.ticketsystem.bookmymovie.utils;
 
 import org.springframework.http.ResponseEntity;

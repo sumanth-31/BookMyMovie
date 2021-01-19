@@ -1,3 +1,6 @@
+/*
+This File defines the DTO for GET Request of Owner.
+*/
 package com.ticketsystem.bookmymovie.dto.ownerDTO;
 
 public class OwnerGetDTO {

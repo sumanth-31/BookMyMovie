@@ -1,3 +1,7 @@
+/*
+Controller for City-related functions. 
+This file defines the API endpoints mapping for City-related functions
+*/
 package com.ticketsystem.bookmymovie.controllers;
 
 import com.ticketsystem.bookmymovie.dto.cityDTO.CityGetDTO;
