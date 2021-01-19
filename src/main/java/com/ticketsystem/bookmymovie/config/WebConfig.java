@@ -1,3 +1,6 @@
+/*
+Configuration File for avoiding CORS Errors
+*/
 package com.ticketsystem.bookmymovie.config;
 
 import org.springframework.context.annotation.*;

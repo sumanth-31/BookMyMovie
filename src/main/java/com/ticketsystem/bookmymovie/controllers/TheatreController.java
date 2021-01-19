@@ -1,3 +1,7 @@
+/*
+Controller for Theatre-related functions. 
+This file defines the API endpoints mapping for Theatre-related functions
+*/
 package com.ticketsystem.bookmymovie.controllers;
 
 import org.springframework.web.bind.annotation.*;

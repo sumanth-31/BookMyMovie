@@ -1,3 +1,6 @@
+/*
+This File defines the Service for Screen that contains the business logic for various functions.
+ */
 package com.ticketsystem.bookmymovie.services;
 
 import com.ticketsystem.bookmymovie.dto.screenDTO.*;

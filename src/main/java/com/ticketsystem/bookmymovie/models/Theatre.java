@@ -1,3 +1,6 @@
+/*
+This File defines the Model(Table) for Theatre Entity
+ */
 package com.ticketsystem.bookmymovie.models;
 
 import javax.persistence.*;

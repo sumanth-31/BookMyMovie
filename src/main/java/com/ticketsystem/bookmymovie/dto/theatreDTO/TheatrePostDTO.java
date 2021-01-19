@@ -1,3 +1,6 @@
+/*
+This File defines the DTO for POST Request of Theatre.
+*/
 package com.ticketsystem.bookmymovie.dto.theatreDTO;
 
 public class TheatrePostDTO {

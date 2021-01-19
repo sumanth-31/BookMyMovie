@@ -1,3 +1,6 @@
+/*
+This File defines the DTO for POST Request of Owner.
+*/
 package com.ticketsystem.bookmymovie.dto.ownerDTO;
 
 public class OwnerPostDTO {

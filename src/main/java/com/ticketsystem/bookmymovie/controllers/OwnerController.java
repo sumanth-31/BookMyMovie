@@ -1,3 +1,7 @@
+/*
+Controller for Owner-related functions. 
+This file defines the API endpoints mapping for Owner-related functions
+*/
 package com.ticketsystem.bookmymovie.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
