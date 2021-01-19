@@ -31,6 +31,10 @@ public class MovieService {
 
     public ResponseEntity<Object> addMovie(MoviePostDTO movieDTO) {
         String name = movieDTO.getName();
+        Optional<Movie> optionalMovie = movieRepository.findByName(name);
+        if (optionalMovie.isPresent()) {
+            return Utils.badRequest("Movie already exists!");
+        }
         Movie movie = new Movie(name);
         movieRepository.save(movie);
         return Utils.okResponse("movie", movie);
