@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.ticketsystem.bookmymovie.BookmymovieApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.605 s - in com.ticketsystem.bookmymovie.BookmymovieApplicationTests
